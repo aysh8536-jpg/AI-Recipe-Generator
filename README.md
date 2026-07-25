@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🍳 AI Recipe Generator
 
 ## 📌 Project Overview
@@ -160,3 +161,7 @@ Ayesha Jamil
 BS Computer Science
 
 University of Education
+=======
+# AI-Recipe-Generator
+An AI-powered recipe generator that creates personalised recipes from available ingredients using Google Gemini AI.
+>>>>>>> d2575dcf85bbab85a53365edb361126d41a8de59
