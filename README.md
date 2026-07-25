@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🍳 AI Recipe Generator
 
 ## 📌 Project Overview
@@ -137,7 +137,7 @@ AI Recipe Generator solves this problem by creating personalized recipes based o
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/AI-Recipe-Generator.git
+git clone https://github.com/aysh8536@gmail.com/AI-Recipe-Generator.git
 ```
 
 Install dependencies
@@ -161,7 +161,5 @@ Ayesha Jamil
 BS Computer Science
 
 University of Education
-=======
 # AI-Recipe-Generator
 An AI-powered recipe generator that creates personalised recipes from available ingredients using Google Gemini AI.
->>>>>>> d2575dcf85bbab85a53365edb361126d41a8de59
