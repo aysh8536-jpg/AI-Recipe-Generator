@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Print Optimization Styles */
+  @media print {
+    body {
+      background-color: #ffffff !important;
+      color: #0f172a !important;
+      font-size: 12pt;
+    }
+
+    header,
+    footer,
+    nav,
+    aside,
+    .no-print {
+      display: none !important;
+    }
+
+    .printable-recipe {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      box-shadow: none !important;
+      border: none !important;
+      background: white !important;
+      color: black !important;
+    }
+
+    .printable-recipe * {
+      color: black !important;
+      background: transparent !important;
+    }
+  }
+}
