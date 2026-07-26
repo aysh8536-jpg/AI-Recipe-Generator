@@ -63,7 +63,7 @@ ${additionalNotes ? `- Extra Preferences/Notes: ${additionalNotes}` : ''}
 Focus on using the provided ingredients as much as possible. If essential ingredients like oil, salt, or water are needed or if missing a key item to make the dish work, list those separately in missingIngredients. Keep step-by-step instructions beginner friendly.`;
 
       const response = await ai.models.generateContent({
-      model: 'gemini-2.0-flash',
+      model: 'gemini-2.5-flash',
         contents: prompt,
         config: {
           systemInstruction:
