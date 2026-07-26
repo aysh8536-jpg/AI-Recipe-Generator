@@ -59,14 +59,13 @@ ${additionalNotes}
 
 
     const response = await ai.models.generateContent({
-      model: "gemini-1.5-flash",
+     model: "gemini-2.0-flash-lite",
       contents: prompt,
       config: {
         temperature: 0.7,
         responseMimeType: "application/json"
       }
     });
-
 
     const recipe = JSON.parse(response.text || "{}");
 
